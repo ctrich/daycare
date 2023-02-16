@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
     "devmon": "^0.0.1"
   }
 }
