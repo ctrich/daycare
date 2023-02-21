@@ -45,29 +45,34 @@
     <main class="hero">
       <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
         <h1 class="center-text text-center">Nuelle's Daycare</h1>
-        <a href="#services"><input type="button" value="Learn More!"></a>
+        <a href="#services"><input type="button" class="btn btn-outline-info" value="Learn More!"></a>
       </div>
     </main>
-    <section id="services" class="services">
+    <section id="services" class="services d-flex flex-column container-fluid">
       <h2 class="text-center">Services</h2>
-      <div class="d-flex justify-content-center">
-        <div class="col-lg-3 text-center">
+      <div class="d-flex">
+        <div class="col-lg-3 text-center pt-5">
+          <i class="fa-solid fa-school"></i>
           <h4>Daycare</h4>
           <p>Join our family!</p>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center pt-5">
+          <i class="fa-solid fa-moon"></i>
           <h4>Evening Care</h4>
           <p>For date night or weekend out of town.</p>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center pt-5">
+          <i class="fa-solid fa-toilet"></i>
           <h4>Potty Training</h4>
           <p>We support your training needs.</p>
         </div>
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center pt-5">
+          <i class="fa-sharp fa-solid fa-graduation-cap"></i>
           <h4>Communication</h4>
           <p>Toddlers learn simple ASL.</p>
         </div>
       </div>
+      <a href="#pricing" class="align-self-center pt-5"><input type="button" class="btn btn-outline-success" value="See Pricing"></a>
     </section>
     <section id="pricing" class="pricing">
       <h2 class="text-center">Pricing</h2>
@@ -80,5 +85,6 @@
     </section>
   </div>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="https://kit.fontawesome.com/c488dcf0e8.js" crossorigin="anonymous"></script>
 </body>
 </html>
