@@ -10,38 +10,73 @@
 </head>
 <body>
   <div class="container-xxl container-fluid">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="assets/images/logo.png" alt="logo" width="35" height="35" class="d-inline-block align-top" />
-          Daycare
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ToggleMobileMenu" aria-controls="ToggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="ToggleMobileMenu">
-          <ul class="navbar-nav text-center ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="assets/images/logo.png" alt="logo" width="35" height="35" class="d-inline-block align-top" />
+            Daycare
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ToggleMobileMenu" aria-controls="ToggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="ToggleMobileMenu">
+            <ul class="navbar-nav text-center ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="hero">
+      <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
+        <h1 class="center-text text-center">Nuelle's Daycare</h1>
+        <a href="#services"><input type="button" value="Learn More!"></a>
+      </div>
+    </main>
+    <section id="services" class="services">
+      <h2 class="text-center">Services</h2>
+      <div class="d-flex justify-content-center">
+        <div class="col-lg-3 text-center">
+          <h4>Daycare</h4>
+          <p>Join our family!</p>
+        </div>
+        <div class="col-lg-3 text-center">
+          <h4>Evening Care</h4>
+          <p>For date night or weekend out of town.</p>
+        </div>
+        <div class="col-lg-3 text-center">
+          <h4>Potty Training</h4>
+          <p>We support your training needs.</p>
+        </div>
+        <div class="col-lg-3 text-center">
+          <h4>Communication</h4>
+          <p>Toddlers learn simple ASL.</p>
         </div>
       </div>
-    </nav>
-    <section class="hero">
-      <h1 class="center-text color-overlay">Nuelle's Daycare</h1>
+    </section>
+    <section id="pricing" class="pricing">
+      <h2 class="text-center">Pricing</h2>
+    </section>
+    <section id="about" class="about">
+      <h2 class="text-center">About</h2>
+    </section>
+    <section id="contact" class="contact">
+      <h2 class="text-center">Contact</h2>
     </section>
   </div>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>

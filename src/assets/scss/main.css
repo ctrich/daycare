@@ -10827,15 +10827,13 @@ textarea.form-control-lg {
   background-image: url('../images/header.jpg');
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 95vh;
+  margin-bottom: 3em;
 }
 
 .center-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 70vh;
-  color: white;
+  
+  color: var(--bs-pink);
 }
 
 .color-overlay {
