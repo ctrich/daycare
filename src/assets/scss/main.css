@@ -10824,7 +10824,7 @@ textarea.form-control-lg {
 /* custom */
 
 section {
-  margin-top: 7em;
+  margin-top: 6em;
 }
 
 .hero {
@@ -10853,4 +10853,14 @@ i {
   font-size: 4em;
   margin-bottom:.5em;
   color: var(--bs-pink);
+}
+
+@media (min-width: 500px) {
+  .pricing-info {
+    max-width: 75%;
+  }
+
+  .about {
+    max-width: 30em;
+  }
 }
